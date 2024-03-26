@@ -1,10 +1,6 @@
 import './App.css'
 import data from './quotes.json';
 import React from 'react'
-// import javascriptLogo from './javascript.svg'
-// import viteLogo from '/vite.svg'
-// import {Generator} from './jquery'
-
 class App extends React.Component{
   constructor(props){
     super(props)
@@ -55,7 +51,7 @@ class App extends React.Component{
 <div className='actions center-block'>
   
   <div className="generator">
-      <button className="btn btn-primary generate" id="new-quote" onClick={this.Generator} >New Quote</button>
+      <button className="btn btn-primary generate" id="new-quote" onClick={this.Generator} >New Quote here</button>
       <a className = "twitter-share-button" id="tweet-quote" href={this.state.link}><button className="btn btn-primary generate tweet">Tweet</button></a>
   </div>
 </div>
